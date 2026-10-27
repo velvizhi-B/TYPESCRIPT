@@ -1,0 +1,11 @@
+npm install typescript --save-dev
+// run typescript
+npx tsc file.ts
+//installing globally
+npm install -g typescript
+// verision 
+tsc -v
+//his command tells TypeScript to ignore tsconfig.json and compile sample0.ts using the compiler's default settings.
+npx tsc --init
+// to run 
+npx tsc sample0.ts --ignoreConfig
